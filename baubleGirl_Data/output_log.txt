@@ -17,7 +17,7 @@ Platform assembly: D:\WORKING\DEV\baubleGirl\baubleGirl_Data\Managed\UnityEngine
 Loading D:\WORKING\DEV\baubleGirl\baubleGirl_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\WORKING\DEV\baubleGirl\baubleGirl_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\WORKING\DEV\baubleGirl\baubleGirl_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.039 seconds
+- Completed reload, in  0.037 seconds
 Platform assembly: D:\WORKING\DEV\baubleGirl\baubleGirl_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\WORKING\DEV\baubleGirl\baubleGirl_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
@@ -25,14 +25,14 @@ desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initialized touch support.
-UnloadTime: 2.469595 ms
+UnloadTime: 1.129385 ms
 Loading Hypercube Tools v2.11 on  Unity v5.5.1f1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1938 -> priority: 1 
-  Thread -> id: 26e0 -> priority: 1 
+  Thread -> id: 1d34 -> priority: 1 
+  Thread -> id: 1b90 -> priority: 1 
 Hypercube: Successfully connected to Volume Touch Panel running firmware v4.5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)

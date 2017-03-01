@@ -45,7 +45,11 @@ public class girl : MonoBehaviour {
             reset();
         else if (Input.GetKeyDown(KeyCode.P))
             setState(girlStateType.ST_POSE1);
-	}
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
+    }
 
 
     public void doneCompleted()

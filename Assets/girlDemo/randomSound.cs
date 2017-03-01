@@ -30,9 +30,10 @@ public class randomSound : MonoBehaviour {
 
         if (timer < 0)
         {
-            a.clip = sounds[Random.Range(0, sounds.Length)];
-            a.volume = volumeMod;
-            a.Play();
+            //a.clip = sounds[Random.Range(0, sounds.Length)];
+            //a.volume = volumeMod;
+            //a.Play();
+            a.PlayOneShot(sounds[Random.Range(0, sounds.Length)], volumeMod);
             timer = Random.Range(timeBetweenMin, timeBetweenMax);
         }
 	}
