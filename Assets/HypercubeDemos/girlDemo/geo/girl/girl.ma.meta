@@ -1,0 +1,3906 @@
+fileFormatVersion: 2
+guid: 92e508a06bca5c842a7f4b5406b3d8d8
+timeCreated: 1460266683
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: allControls
+    100002: ankleL
+    100004: ankleR
+    100006: armL_IK
+    100008: armL_PV
+    100010: armR_IK
+    100012: armR_PV
+    100014: back1
+    100016: back2
+    100018: backControl
+    100020: curve1
+    100022: elbowL
+    100024: elbowR
+    100026: eyeLook
+    100028: eyeRigJoint
+    100030: eyeRigPivotJoint
+    100032: fingersL
+    100034: fingersL 1
+    100036: fingersR
+    100038: fingersR 1
+    100040: footL
+    100042: footR
+    100044: footRollL
+    100046: footRollR
+    100048: //RootNode
+    100050: girlA
+    100052: girlBase
+    100054: girlGeo
+    100056: girlM
+    100058: girlO
+    100060: girlRoot
+    100062: handL
+    100064: handR
+    100066: headControl
+    100068: hipL
+    100070: hipR
+    100072: indexFingerL
+    100074: indexFingerR
+    100076: indexL
+    100078: indexR
+    100080: kneeL
+    100082: kneeR
+    100084: legL_IK
+    100086: legL_PV
+    100088: legR_IK
+    100090: legR_PV
+    100092: neck
+    100094: pelvis
+    100096: pelvisControl
+    100098: ponyTail1
+    100100: ponyTail1 1
+    100102: ponyTail2
+    100104: ponyTail2 1
+    100106: ponyTail3
+    100108: ponyTailBase
+    100110: refCube
+    100112: shoulderControl
+    100114: shoulderL
+    100116: shoulderR
+    100118: skirt
+    100120: skirtMove
+    100122: thumbL
+    100124: thumbL 1
+    100126: thumbR
+    100128: thumbR 1
+    100130: toeL
+    100132: toeR
+    100134: wristL
+    100136: wristR
+    100138: animHolder
+    400000: allControls
+    400002: ankleL
+    400004: ankleR
+    400006: armL_IK
+    400008: armL_PV
+    400010: armR_IK
+    400012: armR_PV
+    400014: back1
+    400016: back2
+    400018: backControl
+    400020: curve1
+    400022: elbowL
+    400024: elbowR
+    400026: eyeLook
+    400028: eyeRigJoint
+    400030: eyeRigPivotJoint
+    400032: fingersL
+    400034: fingersL 1
+    400036: fingersR
+    400038: fingersR 1
+    400040: footL
+    400042: footR
+    400044: footRollL
+    400046: footRollR
+    400048: //RootNode
+    400050: girlA
+    400052: girlBase
+    400054: girlGeo
+    400056: girlM
+    400058: girlO
+    400060: girlRoot
+    400062: handL
+    400064: handR
+    400066: headControl
+    400068: hipL
+    400070: hipR
+    400072: indexFingerL
+    400074: indexFingerR
+    400076: indexL
+    400078: indexR
+    400080: kneeL
+    400082: kneeR
+    400084: legL_IK
+    400086: legL_PV
+    400088: legR_IK
+    400090: legR_PV
+    400092: neck
+    400094: pelvis
+    400096: pelvisControl
+    400098: ponyTail1
+    400100: ponyTail1 1
+    400102: ponyTail2
+    400104: ponyTail2 1
+    400106: ponyTail3
+    400108: ponyTailBase
+    400110: refCube
+    400112: shoulderControl
+    400114: shoulderL
+    400116: shoulderR
+    400118: skirt
+    400120: skirtMove
+    400122: thumbL
+    400124: thumbL 1
+    400126: thumbR
+    400128: thumbR 1
+    400130: toeL
+    400132: toeR
+    400134: wristL
+    400136: wristR
+    400138: animHolder
+    2300000: girlA
+    2300002: girlBase
+    2300004: girlM
+    2300006: girlO
+    2300008: refCube
+    2300010: animHolder
+    3300000: girlA
+    3300002: girlBase
+    3300004: girlM
+    3300006: girlO
+    3300008: refCube
+    3300010: animHolder
+    4300000: girlGeo
+    4300002: girlBase
+    4300004: girlM
+    4300006: girlO
+    4300008: girlA
+    4300010: refCube
+    4300012: animHolder
+    7400000: pose1
+    7400002: pose2
+    7400004: pose3
+    7400006: pose1 idle
+    7400008: pose1 bored1
+    7400010: pose1 bored2
+    7400012: pose1 bored2 idle
+    7400014: pose2 idle
+    7400016: pose2 bored1
+    7400018: pose2 bored2
+    7400020: posed2 bored2 idle
+    7400022: pose3 idle
+    7400024: pose3 bored1
+    7400026: pose3 bored2
+    7400028: pose3 bored2 idle
+    7400030: girlIdleSway
+    7400032: girlIdleHop
+    7400034: girlIdleLook
+    7400036: girlIdleStay
+    7400038: girlRun
+    7400040: heyThereYouAre
+    7400042: I have to go
+    9500000: //RootNode
+    13700000: girlGeo
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.01
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pose1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose2
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose3
+      takeName: Take 001
+      firstFrame: 118
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose1 idle
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose1 bored1
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 354
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose1 bored2
+      takeName: Take 001
+      firstFrame: 368
+      lastFrame: 401
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose1 bored2 idle
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose2 idle
+      takeName: Take 001
+      firstFrame: 520
+      lastFrame: 580
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose2 bored1
+      takeName: Take 001
+      firstFrame: 600
+      lastFrame: 660
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose2 bored2
+      takeName: Take 001
+      firstFrame: 668
+      lastFrame: 700
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: posed2 bored2 idle
+      takeName: Take 001
+      firstFrame: 720
+      lastFrame: 780
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose3 idle
+      takeName: Take 001
+      firstFrame: 800
+      lastFrame: 850
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose3 bored1
+      takeName: Take 001
+      firstFrame: 900
+      lastFrame: 960
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose3 bored2
+      takeName: Take 001
+      firstFrame: 962
+      lastFrame: 1020
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pose3 bored2 idle
+      takeName: Take 001
+      firstFrame: 1050
+      lastFrame: 1100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: girlIdleSway
+      takeName: Take 001
+      firstFrame: 1200
+      lastFrame: 1250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: girlIdleHop
+      takeName: Take 001
+      firstFrame: 1260
+      lastFrame: 1370
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: girlIdleLook
+      takeName: Take 001
+      firstFrame: 1380
+      lastFrame: 1510
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: girlIdleStay
+      takeName: Take 001
+      firstFrame: 1990.0001
+      lastFrame: 2060
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: girlRun
+      takeName: Take 001
+      firstFrame: 1530
+      lastFrame: 1554
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: heyThereYouAre
+      takeName: Take 001
+      firstFrame: 1580
+      lastFrame: 1699
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: I have to go
+      takeName: Take 001
+      firstFrame: 1700
+      lastFrame: 1984.9999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allControls
+        weight: 1
+      - path: allControls/footL
+        weight: 1
+      - path: allControls/footL/footRollL
+        weight: 1
+      - path: allControls/footL/footRollL/legL_IK
+        weight: 1
+      - path: allControls/footR
+        weight: 1
+      - path: allControls/footR/footRollR
+        weight: 1
+      - path: allControls/footR/footRollR/legR_IK
+        weight: 1
+      - path: allControls/pelvisControl
+        weight: 1
+      - path: allControls/pelvisControl/armL_PV
+        weight: 1
+      - path: allControls/pelvisControl/armR_PV
+        weight: 1
+      - path: allControls/pelvisControl/backControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/armL_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/fingersL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/indexL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handL/thumbL
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/armR_IK
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/fingersR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/indexR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/handR/thumbR
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/eyeLook
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1
+        weight: 1
+      - path: allControls/pelvisControl/backControl/shoulderControl/headControl/ponyTailBase/ponyTail1
+          1/ponyTail2 1
+        weight: 1
+      - path: allControls/pelvisControl/legL_PV
+        weight: 1
+      - path: allControls/pelvisControl/legR_PV
+        weight: 1
+      - path: allControls/pelvisControl/skirt
+        weight: 1
+      - path: girlA
+        weight: 1
+      - path: girlBase
+        weight: 1
+      - path: girlGeo
+        weight: 1
+      - path: girlM
+        weight: 1
+      - path: girlO
+        weight: 1
+      - path: girlRoot
+        weight: 1
+      - path: girlRoot/pelvis
+        weight: 1
+      - path: girlRoot/pelvis/back1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/eyeRigPivotJoint/eyeRigJoint
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/neck/ponyTail1/ponyTail2/ponyTail3
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/fingersL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/indexFingerL
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderL/elbowL/wristL/thumbL 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/fingersR 1
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/indexFingerR
+        weight: 1
+      - path: girlRoot/pelvis/back1/back2/shoulderR/elbowR/wristR/thumbR 1
+        weight: 1
+      - path: girlRoot/pelvis/hipL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL
+        weight: 1
+      - path: girlRoot/pelvis/hipL/kneeL/ankleL/toeL
+        weight: 1
+      - path: girlRoot/pelvis/hipR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR
+        weight: 1
+      - path: girlRoot/pelvis/hipR/kneeR/ankleR/toeR
+        weight: 1
+      - path: girlRoot/pelvis/skirtMove
+        weight: 1
+      - path: refCube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
