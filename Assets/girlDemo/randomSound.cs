@@ -8,7 +8,7 @@ public class randomSound : MonoBehaviour {
     public AudioClip[] sounds;
     public float timeBetweenMin;  //the time between playbacks
     public float timeBetweenMax;
-    public AudioSource audio;
+    public AudioSource a;
 
     float timer;
     
@@ -16,8 +16,8 @@ public class randomSound : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-        if (!audio)
-            audio = GetComponent<AudioSource>();
+        if (!a)
+            a = GetComponent<AudioSource>();
         timer = 0;
 	}
 
@@ -30,7 +30,7 @@ public class randomSound : MonoBehaviour {
 
         if (timer < 0)
         {
-            audio.PlayOneShot(sounds[Random.Range(0, sounds.Length)], volumeMod);
+            a.PlayOneShot(sounds[Random.Range(0, sounds.Length)], volumeMod);
             timer = Random.Range(timeBetweenMin, timeBetweenMax);
         }
 	}

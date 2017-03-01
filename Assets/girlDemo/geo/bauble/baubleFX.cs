@@ -11,7 +11,6 @@ public class baubleFX : MonoBehaviour {
     public float rotateSpeedZ;
 
     public Transform effectMesh;
-    public Transform camera;
 
     float uvOffset = 0;
 	// Use this for initialization
@@ -29,6 +28,6 @@ public class baubleFX : MonoBehaviour {
 
         transform.Rotate(rotateSpeedX * Time.deltaTime, rotateSpeedY * Time.deltaTime, rotateSpeedZ * Time.deltaTime);
 
-        effectMesh.rotation = camera.rotation; //effect always faces cam.
+        effectMesh.rotation = hypercubeCamera.mainCam.transform.rotation; //effect always faces cam.
 	}
 }

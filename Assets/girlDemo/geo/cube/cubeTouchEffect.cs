@@ -36,14 +36,9 @@ public class cubeTouchEffect : hypercube.touchScreenTarget
 
     public override void onTouchMoved(hypercube.touch touch)
     {
-        emitTouchParticle(true, touch.posX, touch.posY);
+        emitTouchParticle(true, touch.getWorldPos(hypercubeCamera.mainCam));
     }
 
-    public void emitTouchParticle(bool timed, float screenPosX, float screenPosY)
-    {
-        Vector3 worldPos = transform.TransformPoint(screenPosX, screenPosY, particleZ);
-        emitTouchParticle(timed, worldPos);
-    }
     public void emitTouchParticle(bool timed, Vector3 worldPos)
     {
         if (timed)

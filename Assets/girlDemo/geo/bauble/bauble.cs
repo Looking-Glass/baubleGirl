@@ -12,18 +12,11 @@ public class bauble : hypercube.touchScreenTarget
 
     float clickTimer;
 
-    cubeMover cube;
-
-    void Start()
-    {
-        cube = hypercubeCamera.mainCam.GetComponent<cubeMover>();
-    }
-
     void Update()
     {
         clickTimer -= Time.deltaTime;
 
-        if (!utils.isWithinGridRange2D(transform.position, cube.transform.position, respawnDistance))
+        if (!utils.isWithinGridRange2D(transform.position, hypercubeCamera.mainCam.transform.position, respawnDistance))
         {
             respawn();
         }
@@ -32,7 +25,7 @@ public class bauble : hypercube.touchScreenTarget
     public void respawn()
     {
         //move ourselves closer to the cube
-        transform.position = utils.getRandomPointAtDistanceFrom(cube.transform.position, respawnDistance);
+        transform.position = utils.getRandomPointAtDistanceFrom(hypercubeCamera.mainCam.transform.position, respawnDistance);
     }
 
     public override void onTouchDown(hypercube.touch t)
@@ -40,7 +33,7 @@ public class bauble : hypercube.touchScreenTarget
         if (!gameObject.activeSelf)
             return;
 
-        if (utils.isWithinGridRange2D(transform.position, cube.transform.position, triggerRange))
+        if (utils.isWithinGridRange2D(transform.position, hypercubeCamera.mainCam.transform.position, triggerRange))
             clickTimer = clickTimeTrigger;
     }
 
