@@ -54,7 +54,7 @@ public class cubeMover : hypercube.touchScreenTarget
         if (anchored)
             return;
 
-        currentFrameInertia += new Vector3(touch.diffX * -speed, 0, touch.diffY * -speed);
+        currentFrameInertia += new Vector3(touch.diffX * speed, 0, touch.diffY * speed);
     }
 
 
