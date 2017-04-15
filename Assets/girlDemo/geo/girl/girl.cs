@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class girl : MonoBehaviour {
-
+public class girl : hypercube.touchScreenTarget
+{
     public GameObject girlObject;
     public Transform girlRoot;
     public Transform girlPelvis;
@@ -23,6 +23,9 @@ public class girl : MonoBehaviour {
 
     bauble[] allBaubles;
 
+    public float resetTime = 30f; //if this time passes with no interaction, the game will reset.
+    float resetTimer = 0f;
+
 	void Start () 
     {
         cubeStartPos = cube.transform.position;
@@ -35,9 +38,9 @@ public class girl : MonoBehaviour {
 
         sfxSound = cube.GetComponent<AudioSource>();
 	}
-	
 
-	void Update () 
+
+    void Update()
     {
         currentState.updateState(this);
 
@@ -49,7 +52,21 @@ public class girl : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
             Application.Quit();
 
+        if (currentState.stateType != girlStateType.ST_INIT)
+        {
+            resetTimer += Time.deltaTime;
+            if (resetTimer > resetTime)
+            {
+                reset();
+                resetTimer = 0f;
+            }
+        }
+
     }
+
+    public override void onTouchDown(hypercube.touch touch) { resetTimer = 0f; } //restart the reset timer if any input is received.
+    public override void onTouchMoved(hypercube.touch touch) { resetTimer = 0f; }
+    public override void onTouchUp(hypercube.touch touch) { resetTimer = 0f; }
 
 
     public void doneCompleted()

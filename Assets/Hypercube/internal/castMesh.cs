@@ -50,12 +50,21 @@ namespace hypercube
 
         public string volumeModelName { get; private set; }
         public float volumeHardwareVer { get; private set; }
-        public static castMesh canvas { get; private set; } //access the existing canvas from anywhere
 
-        public static int rttResX { get; private set; } //these are the render texture resolutions per slice.
+        /// <summary>
+        /// Access the existing canvas from anywhere
+        /// </summary>
+        public static castMesh canvas { get; private set; } 
+
+        /// <summary>
+        /// These are the render texture resolutions per slice.
+        /// </summary>
+        public static int rttResX { get; private set; }
         public static int rttResY { get; private set; }
 
-        //stored aspect ratio multipliers, each with the corresponding axis set to 1
+        /// <summary>
+        /// Stored aspect ratio multipliers, each with the corresponding axis set to 1
+        /// </summary>
         public Vector3 aspectX { get; private set; }
         public Vector3 aspectY { get; private set; }
         public Vector3 aspectZ { get; private set; }
@@ -77,30 +86,24 @@ namespace hypercube
         }
 
 
-        public int getSliceCount() { if (calibrationData == null) return 1; return calibrationData.GetLength(0); } //a safe accessor, since its accessed constantly.
+        public int getSliceCount()
+        {
+            if (calibrationData == null)
+            {
+                if (!loadSettingsFromUSB()) //try to force it? probably we are in an odd state in the editor.
+                    return defaultSliceCount;
+
+                if (calibrationData == null)
+                    return defaultSliceCount;
+            }
+            return calibrationData.GetLength(0);
+        } //a safe accessor, since its accessed constantly.
 
         Vector2[,,] calibrationData = null;
 
         public bool flipX = false;  //modifier values, by the user.
         public bool flipY = false;
         public bool flipZ = false;
-
-
-        private static bool _drawOccludedMode = false; 
-        public bool drawOccludedMode
-        {
-            get
-            {
-                return _drawOccludedMode;
-            }
-            set
-            {
-                _drawOccludedMode = value;
-                updateMesh();
-            }
-        }
-
-
 
         public float zPos = .01f;
         [Range(1, 20)]
@@ -121,6 +124,14 @@ namespace hypercube
         
 
         public hypercubePreview preview = null;
+
+        /// <summary>
+        /// This allows the debugging tools to tell you when your app was built.
+        /// If using Unity > 5.6  this text file will be updated with the current time just before building and shipped as an asset with the build
+        /// See: utils.getDebugStats()  and utils.writeDebugStats()
+        /// </summary>
+        [HideInInspector]
+        public TextAsset buildTracker = null;
 
 #if HYPERCUBE_DEV
         public calibrator currentCalibrator = null;
@@ -144,6 +155,9 @@ namespace hypercube
             updateMesh();
 
             hasCalibration = true;
+
+            if (hypercubeCamera.mainCam)
+                hypercube.sliceModifier.updateSliceModifiers(getSliceCount(), hypercubeCamera.mainCam.sliceModifiers);
 
             return true;
         }
@@ -196,8 +210,9 @@ namespace hypercube
 #endif
                 //poll, and try to use the settings on the PCB once they come in.
                 Shader.SetGlobalFloat("_sliceCount", defaultSliceCount); //temporarily set this for shaders, just in case for the meantime.
-            
-                usePreviewCam(true);//let the user just see the preview
+
+                if (Application.isPlaying) //only in play mode, so that the editor isn't constantly turning the camera back to visible
+                    usePreviewCam(true);//let the user just see the preview 
             }
             else 
                 usePreviewCam(false); //make sure the normal slice display is shown.
@@ -253,9 +268,11 @@ namespace hypercube
 
             bool foundCalibrationFile = false;
            
-            if (hypercube.utils.getConfigPathToFile(usbConfigPath + "/" + basicSettingsFileName, out d.fileName) && d.load()) // (ie   G:/volumeConfigurationData/prefs.txt)
+            if (hypercube.utils.getConfigPathToFile(usbConfigPath + "/" + basicSettingsFileName, out d.fileName)) // (ie   G:/volumeConfigurationData/prefs.txt)
             {
                 hasUSBBasic = true;
+                d.load(); //note this could return false, since it it is allowed to be blank here.
+
 #if HYPERCUBE_DEV
                 if (calibratorBasic) calibratorBasic.usbText.color = Color.yellow;
 #endif
@@ -547,8 +564,11 @@ namespace hypercube
             }
 
             //make sure the proper dynamic textures are in place
+            bool drawOccludedMode = false;
             if (hypercubeCamera.mainCam)
             {
+                drawOccludedMode = hypercubeCamera.mainCam.softSliceMethod == hypercubeCamera.renderMode.OCCLUDING ? true : false;
+
                 for (int i = 0; i < getSliceCount() && i < hypercubeCamera.mainCam.sliceTextures.Length; i++)
                 {
                     canvasMaterials[i].mainTexture = hypercubeCamera.mainCam.sliceTextures[i];
@@ -575,12 +595,12 @@ namespace hypercube
                 //we generate each slice mesh out of 4 interpolated parts.
                 List<int> tris = new List<int>();
 
-                vertCount += generateSlice(vertCount, s, ref verts, ref tris, ref uvs, ref colors); 
+                vertCount += generateSlice(vertCount, s, drawOccludedMode, ref verts, ref tris, ref uvs, ref colors); 
 
                 submeshes.Add(tris.ToArray());
 
                 //every face has a separate material/texture  
-                if (_drawOccludedMode)
+                if (drawOccludedMode)
                     faceMaterials[s] = occlusionMaterial; //here it just uses 1 material, but the slices have different uv's if we are in occlusion mode
                 else if (!flipZ)
                     faceMaterials[s] = canvasMaterials[s]; //normal
@@ -630,7 +650,7 @@ namespace hypercube
         }
             
         //returns amount of verts created
-        int generateSlice(int startingVert, int slice, ref  List<Vector3> verts, ref List<int> triangles, ref List<Vector2> uvs, ref List<Color> colors)
+        int generateSlice(int startingVert, int slice, bool occludedMode, ref  List<Vector3> verts, ref List<int> triangles, ref List<Vector2> uvs, ref List<Color> colors)
         {
             int vertCount = 0;
             int xTesselation = calibrationData.GetLength(1);
@@ -666,18 +686,38 @@ namespace hypercube
             }
 
             //uvs
-            if (_drawOccludedMode)
+            float u = 0f;
+            float v = 0f;
+            if (occludedMode)
             {
                 float sliceMod = 1f / (float)getSliceCount();
 
                 float UVW = 1f / (float)(xTesselation -1); //-1 makes sure the UV gets to the end
-                float UVH = sliceMod * 1f / (float)(yTesselation -1 );
+                float UVH =  sliceMod * 1f / (float)(yTesselation -1);
+
                 float heightOffset = sliceMod * slice;
+
                 for (var y = 0; y < yTesselation; y++)
                 {
                     for (var x = 0; x < xTesselation; x++)
                     {
-                        Vector2 targetUV = new Vector2(x * UVW, heightOffset + (y * UVH));  //0-1 UV target
+                        //0-1 UV target
+                        u = x * UVW;
+
+
+
+                        if ((flipZ && !flipY) || (!flipZ && flipY) ) //remember we are flipping a single screen here, so flipping z also flips y, so we can compensate for that here.
+                            v = y * UVH;
+                        else
+                            v = (yTesselation - y) * UVH;
+
+                        if (flipX)
+                            u = 1 - u;
+                        
+                        v += heightOffset;
+                        if (!flipZ)
+                            v = 1 - v;
+                        Vector2 targetUV = new Vector2(u, v);  
 
                         uvs.Add(targetUV);
 
@@ -693,7 +733,14 @@ namespace hypercube
                 {
                     for (var x = 0; x < xTesselation; x++)
                     {
-                        Vector2 targetUV = new Vector2(x * UVW, y * UVH);  //0-1 UV target
+                        //0-1 UV target
+                        u = x * UVW;
+                        if (flipX)
+                            u = 1 - u;
+                        v = y * UVH;
+                        if (flipY)
+                            v = 1 - v;
+                        Vector2 targetUV = new Vector2(u, v);  
 
                         uvs.Add(targetUV);
 

@@ -65,7 +65,7 @@ public class touchScreenInputManager  : streamedInputManager
         }
     }
 
-    //easy accessors to the data of screen 0, which will be what is used 95% of the time.
+    //easy accessors to the data of screen 0, which will be what is used 99% of the time.
     public touch[] touches { get {return touchScreens[0].touches;}}
     public uint touchCount { get {return touchScreens[0].touchCount;}}
     public Vector2 averagePos { get {return touchScreens[0].averagePos;}} //The 0-1 normalized average position of all touches on touch screen 0
@@ -120,16 +120,17 @@ public class touchScreenInputManager  : streamedInputManager
         touchScreens[7]._init(7, d, 0f, 0f);
     }
 
-     public override void update(bool debug)
+     public override void update()
     {
-        if (!serial)
+        if (!serial || serial.readDataAsString)
             return;
 
         string data = serial.ReadSerialMessage();
         while (data != null && data != "")
         {
-            if (debug)
-                Debug.Log("touchScreenInputMgr: "+ data);
+
+            if (input._get() && (input._get().debug || input._get().debugText)) //optimize this, we don't want to be running string concatenation on every frame for every app.
+                input._debugLog(".", false); //got some touch data.
 
 
             addData(System.Text.Encoding.Unicode.GetBytes(data));

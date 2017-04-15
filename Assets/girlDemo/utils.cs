@@ -10,7 +10,7 @@ public class utils : MonoBehaviour
             var curve = new ParticleSystem.MinMaxCurve();
             curve.constantMax = _rate;
             ParticleSystem.EmissionModule em = p.emission;
-            em.rate = curve;
+            em.rateOverTime = curve;
     }
 
     public static bool isWithinGridRange(Vector3 A, Vector3 B, float range)
