@@ -52,7 +52,7 @@ public class girl : hypercube.touchScreenTarget
         if (Input.GetKeyDown(KeyCode.Escape))
             Application.Quit();
 
-        if (currentState.stateType != girlStateType.ST_INIT)
+        if (currentState.stateType == girlStateType.ST_HIDDEN)
         {
             resetTimer += Time.deltaTime;
             if (resetTimer > resetTime)

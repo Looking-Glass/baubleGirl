@@ -32,7 +32,11 @@ namespace hypercube
         public void setDepth(float d)
         {
             depth = Mathf.Clamp(d, 0f, 1f);      
-            updateSliceModifiers();          
+
+            if (!hypercubeCamera.mainCam)
+                updateSliceModifiers(null);
+            else
+                updateSliceModifiers(hypercubeCamera.mainCam.sliceModifiers);          
         }
 
         //keep track of all modifiers.
@@ -53,28 +57,17 @@ namespace hypercube
         public static void updateSliceModifiers()
         {
             if (hypercubeCamera.mainCam)
-            {
                 updateSliceModifiers(hypercubeCamera.mainCam.sliceModifiers);
-                hypercubeCamera.mainCam.render();
-            }
-            else
-                allModifiers = null;
-                
         }
         public static void updateSliceModifiers(List<sliceModifier> mods)
         {
             if (castMesh.canvas)
                 updateSliceModifiers(castMesh.canvas.getSliceCount(), mods);
-            else
-                allModifiers = null;
         }
         public static void updateSliceModifiers(int sliceCount, List<sliceModifier> mods)
         {
-            if (sliceCount < 1 || mods == null) //probably still starting up, this is bogus.
-            {
-                allModifiers = null;
+            if (sliceCount < 2) //probably still starting up, this is bogus.
                 return;
-            }
 
             allModifiers = new sliceModifier[sliceCount];
 

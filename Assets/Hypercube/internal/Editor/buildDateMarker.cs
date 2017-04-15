@@ -8,7 +8,6 @@
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.Build;
-using System;
 
 class buildDateMarker : IPreprocessBuild
 {

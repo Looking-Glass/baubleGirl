@@ -28,7 +28,7 @@ using System.Collections.Generic;
 [ExecuteInEditMode]
 public class hypercubeCamera : MonoBehaviour
 {
-     public const float version = 2.3f;
+     public const float version = 2.4f;
 
      //a static pointer to the last activated hypercubeCameraZ
      public static hypercubeCamera mainCam = null;  
@@ -271,7 +271,7 @@ public class hypercubeCamera : MonoBehaviour
                 renderCam.gameObject.SetActive(true); //setting it active/inactive is only needed so that OnRenderImage() will be called on softOverlap.cs for the post process effect. It is normally hidden so that the Unity camera icon won't interfere with viewing what is inside hypercube in the editor.            
         }
 
-        if (nearValues == null || farValues == null || nearValues.Length != sliceTextures.Length)
+        if (nearValues == null || farValues == null)
         {
             resetSettings();
         }

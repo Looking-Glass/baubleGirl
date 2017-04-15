@@ -76,7 +76,7 @@ namespace hypercube
             {
                 //check for the finger on the upper right
                 if (allowDebugReport)
-                { 
+                {
                     foreach (touch i in hypercube.input.touchPanel.front.touches)
                     {
                         if (i.posX > 1f - activeCornerArea && i.posY > 1f - activeCornerArea) //upper right
@@ -115,7 +115,7 @@ namespace hypercube
             timer = 0;
 
             if (hypercubeCamera.mainCam)
-            { 
+            {
                 hypercubeCamera.mainCam.sliceModifiers.Remove(overlay);
                 sliceModifier.updateSliceModifiers();
             }
