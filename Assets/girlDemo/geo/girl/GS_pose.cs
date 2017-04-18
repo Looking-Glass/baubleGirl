@@ -52,7 +52,6 @@ public class GS_pose : girlState
         //if (debugPosition)
         //    Instantiate(debugPosition, worldPos, Quaternion.identity);
 
-
         timer = timeToBored;
         if (utils.isWithinGridRange(worldPos, touchTrigger.transform.position, touchTriggerRange))
             g.setState(nextState);

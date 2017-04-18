@@ -58,9 +58,10 @@ public class girl : hypercube.touchScreenTarget
             if (resetTimer > resetTime)
             {
                 reset();
-                resetTimer = 0f;
             }
         }
+        else
+            resetTimer = 0f;
 
     }
 
@@ -122,6 +123,8 @@ public class girl : hypercube.touchScreenTarget
 
         foreach (bauble b in allBaubles)
             b.gameObject.SetActive(true);
+
+        resetTimer = 0f;
     }
 
     public void playTouchScreenSound()
