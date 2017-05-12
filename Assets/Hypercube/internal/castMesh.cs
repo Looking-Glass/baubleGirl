@@ -223,27 +223,23 @@ namespace hypercube
         //then a coherent scene at least is shown on the monitor
         void usePreviewCam(bool onOff)
         {
-            if (!preview)
-                preview = hypercubePreview.preview;
-            if (!preview)
-                preview = GameObject.FindObjectOfType<hypercubePreview>();
+            //if (!preview)
+            //    preview = hypercubePreview.preview;
+            //if (!preview)
+            //    preview = GameObject.FindObjectOfType<hypercubePreview>();
             
-            if (!preview)
-            {
-                GetComponent<Camera>().enabled = true;
-                return;
-            }
 
-            if (onOff && preview.allowIntroView) //use preview cam
-            {
-                GetComponent<Camera>().enabled = false;
-                preview.previewCamera.SetActive(true);
-            }
-            else //normal behavior
-            {
-                GetComponent<Camera>().enabled = true;
-                preview.previewCamera.SetActive(false);
-            }
+
+            //if (onOff && preview.allowIntroView) //use preview cam
+            //{
+            //    GetComponent<Camera>().enabled = false;
+            //    preview.previewCamera.SetActive(true);
+            //}
+            //else //normal behavior
+            //{
+            //    GetComponent<Camera>().enabled = true;
+            //    preview.previewCamera.SetActive(false);
+            //}
         }
 
         public void setCustomWidthHeight(float w, float h)

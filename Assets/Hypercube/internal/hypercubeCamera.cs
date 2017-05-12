@@ -157,7 +157,7 @@ public class hypercubeCamera : MonoBehaviour
                 Cursor.visible = true;          
 #endif
         }
-
+/*
         if (!localCastMesh)
         {
             localCastMesh = hypercube.castMesh.canvas;
@@ -206,6 +206,7 @@ public class hypercubeCamera : MonoBehaviour
             resetSettings(); //you can comment this line out if you will not be scaling your cube during runtime
         }
         render();
+        */
     }
 
     void OnValidate()
@@ -232,7 +233,7 @@ public class hypercubeCamera : MonoBehaviour
         if (preview)
             preview.updateMesh();
 
-        render();
+    //    render();
     }
 
     public void updateOverlap()
