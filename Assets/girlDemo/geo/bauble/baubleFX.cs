@@ -28,6 +28,6 @@ public class baubleFX : MonoBehaviour {
 
         transform.Rotate(rotateSpeedX * Time.deltaTime, rotateSpeedY * Time.deltaTime, rotateSpeedZ * Time.deltaTime);
 
-        effectMesh.rotation = hypercubeCamera.mainCam.transform.rotation; //effect always faces cam.
+        effectMesh.rotation = HoloPlaySDK.HoloPlay.Main.transform.rotation; //effect always faces cam.
 	}
 }
