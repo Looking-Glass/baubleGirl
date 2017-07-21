@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class cubeTouchEffect : hypercube.touchScreenTarget
+using System.Collections.Generic;
+using HoloPlaySDK;
+
+public class cubeTouchEffect : HoloPlaySDK.depthTouchTarget
 {
 
     public ParticleSystem touchParticle;
@@ -20,23 +23,12 @@ public class cubeTouchEffect : hypercube.touchScreenTarget
     }
 
 
-    public override void onTouchDown(hypercube.touch touch)
-    {
-
-        Vector3 worldPos = touch.getWorldPos(hypercubeCamera.mainCam);
-
-        g.injectTouch(worldPos);
-        emitTouchParticle(false, worldPos);
-    }
-
-    public override void onTouchUp(hypercube.touch touch)
-    {
-
-    }
-
-    public override void onTouchMoved(hypercube.touch touch)
-    {
-        emitTouchParticle(true, touch.getWorldPos(hypercubeCamera.mainCam));
+	public override void onDepthTouch(List<depthTouch> touches)
+	{
+		foreach (depthTouch t in touches) 
+		{
+			emitTouchParticle (true, t.getWorldPos(HoloPlay.Main.transform));
+		}
     }
 
     public void emitTouchParticle(bool timed, Vector3 worldPos)

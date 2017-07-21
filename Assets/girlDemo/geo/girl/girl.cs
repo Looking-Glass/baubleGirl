@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using HoloPlaySDK;
 
-public class girl : hypercube.touchScreenTarget
+public class girl : depthTouchTarget
 {
     public GameObject girlObject;
     public Transform girlRoot;
@@ -65,9 +67,7 @@ public class girl : hypercube.touchScreenTarget
 
     }
 
-    public override void onTouchDown(hypercube.touch touch) { resetTimer = 0f; } //restart the reset timer if any input is received.
-    public override void onTouchMoved(hypercube.touch touch) { resetTimer = 0f; }
-    public override void onTouchUp(hypercube.touch touch) { resetTimer = 0f; }
+	public override void onDepthTouch(List<depthTouch> touches) { resetTimer = 0f; } //restart the reset timer if any input is received.
 
 
     public void doneCompleted()

@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+using System.Collections.Generic;
+using HoloPlaySDK;
 
-
-public class cubeMover : hypercube.touchScreenTarget
+public class cubeMover : HoloPlaySDK.depthTouchTarget
 {
 
     public float speed = 1f;
@@ -49,12 +50,12 @@ public class cubeMover : hypercube.touchScreenTarget
     }
 
 
-    public override void onTouchMoved(hypercube.touch touch)
+	public override void onDepthTouch(List<depthTouch> touches)
     {
         if (anchored)
             return;
 
-        currentFrameInertia += new Vector3(touch.diffX * speed, 0, touch.diffY * speed);
+		currentFrameInertia += new Vector3(depthPlugin.get().averageDiff.x * speed, 0, depthPlugin.get().averageDiff.y * speed);
     }
 
 
